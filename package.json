@@ -48,6 +48,7 @@
     "gatsby-plugin-manifest": "3.7.1",
     "gatsby-plugin-offline": "4.7.1",
     "gatsby-plugin-react-helmet": "4.7.1",
+    "gatsby-plugin-s3": "^0.3.8",
     "gatsby-plugin-sharp": "3.7.1",
     "gatsby-source-filesystem": "3.7.1",
     "gatsby-source-ghost": "4.2.4",

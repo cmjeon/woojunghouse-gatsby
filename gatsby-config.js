@@ -38,6 +38,12 @@ module.exports = {
         siteUrl: process.env.SITEURL || config.siteUrl,
     },
     plugins: [
+        {
+            resolve: `gatsby-plugin-s3`,
+            options: {
+                bucketName: "woojunghouse-s3",
+            },
+        },
         /**
          *  Content Plugins
          */
@@ -187,11 +193,5 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
         `gatsby-plugin-offline`,
-        {
-            resolve: `gatsby-plugin-s3`,
-            options: {
-                bucketName: "woojunghouse-s3",
-            },
-        },
     ],
 }
